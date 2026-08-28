@@ -1,0 +1,19 @@
+# Linear merge. Replace paths with your expert checkpoints.
+
+merge_method: linear
+dtype: float16
+models:
+  - model: /path/to/expert-general-ir
+    parameters:
+      weight: 0.25
+  - model: /path/to/expert-general-qa
+    parameters:
+      weight: 0.25
+  - model: /path/to/expert-real-medical
+    parameters:
+      weight: 0.25
+  - model: /path/to/expert-synthetic-medical
+    parameters:
+      weight: 0.25
+parameters:
+  normalize: true

@@ -1,0 +1,55 @@
+# General Knowledge
+general:
+  mteb:
+    ArguAna:
+      task: Argument Retrieval
+      task_description: Given a claim, retrieve arguments that support or refute the claim
+
+    NanoQuoraRetrieval:
+      task: Duplicate Question Detection
+      task_description: Given a question, retrieve semantically similar questions
+
+    FiQA2018:
+      task: Financial Question Answering
+      task_description: Given a question, retrieve relevant documents that best answer the question
+
+    SCIDOCS:
+      task: Citation Prediction
+      task_description: Given a scientific paper title, retrieve paper abstracts that are cited by the given paper
+
+    NanoFEVERRetrieval:
+      task: Fact Verification Retrieval
+      task_description: Given a claim, retrieve documents that support or refute the claim
+
+
+# Medical and Biomedical
+medical:
+  mteb:
+    FeedbackQARetrieval:
+      task: Question Answering Retrieval
+      task_description: Given a question by a medical professional, retrieve relevant passages that best answer the question
+
+    MedicalQARetrieval:
+      task: Question Answering Retrieval
+      task_description: Given a question by a medical professional, retrieve relevant passages that best answer the question
+
+    CUREv1:
+      task: Question Answering Retrieval
+      task_description: Given a question, retrieve relevant documents that best answer the question
+
+    PublicHealthQA:
+      task: Question Answering Retrieval
+      task_description: Given a question by a medical professional, retrieve relevant passages that best answer the question
+
+    NFCorpus:
+      task: Biomedical Search
+      task_description: Given a question, retrieve relevant documents that best answer the question
+
+    TRECCOVID:
+      task: Biomedical Search
+      task_description: Given a query on COVID-19, retrieve documents that answer the query
+
+    SciFact:
+      task: Fact Verification
+      task_description: Given a scientific claim, retrieve documents that support or refute the claim
+

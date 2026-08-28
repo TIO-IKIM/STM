@@ -1,0 +1,13 @@
+mergekit==0.1.4
+PyYAML==6.0.2
+torch==2.6.0
+transformers==4.57.1
+tokenizers==0.22.1
+sentence-transformers==4.1.0
+peft==0.15.2
+accelerate==1.6.0
+safetensors==0.5.3
+huggingface-hub==0.36.0
+numpy==1.26.4
+datasets==2.21.0
+mteb==1.38.1

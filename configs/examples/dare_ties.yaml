@@ -1,0 +1,26 @@
+# DARE-TIES. Replace paths with your base + expert checkpoints.
+
+merge_method: dare_ties
+dtype: float16
+base_model: /path/to/base_model
+models:
+  - model: /path/to/expert-general-ir
+    parameters:
+      weight: 0.2
+      density: 0.2
+  - model: /path/to/expert-general-qa
+    parameters:
+      weight: 0.1
+      density: 0.4
+  - model: /path/to/expert-real-medical
+    parameters:
+      weight: 0.9
+      density: 0.3
+  - model: /path/to/expert-synthetic-medical
+    parameters:
+      weight: 0.1
+      density: 0.7
+parameters:
+  normalize: false
+  int8_mask: true
+  lambda: 1.0
