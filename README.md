@@ -1,6 +1,13 @@
+<div align="center">
+
 # Modular Expert Merging for Biomedical Retrieval
 
-> [Paper](https://arxiv.org/abs/2602.04731) · [Models & data](https://huggingface.co/collections/ikim-uk-essen/stm)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.04731-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.04731)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Models%20%26%20Data-ffd21e?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/collections/ikim-uk-essen/stm)
+
+</div>
+
+---
 
 ## Setup
 
